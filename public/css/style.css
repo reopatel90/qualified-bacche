@@ -432,3 +432,11 @@
     padding-right: 0;
     border-right: none;
 }
+.amit{
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pad{
+    padding-left: 60px !important; 
+}

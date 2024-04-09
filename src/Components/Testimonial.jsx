@@ -1,6 +1,6 @@
 const Testimonial = () => {
     return <> 
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      {/* <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
             <div className="text-center">
                 <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6>
@@ -41,7 +41,7 @@ const Testimonial = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
     </>
 
 }

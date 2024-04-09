@@ -25,7 +25,7 @@ const Navbar = () => {
                         </div>
                         <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                     </div>
-                    <NavLink to="/join" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></NavLink>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYfD-7AqKC7Nc8sOO7aLPZClAMQgXikSzidXHMg_aYyDr8-A/viewform?embedded=true" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </nav>
         </>
