@@ -148,6 +148,9 @@
         transition: .5s;
         opacity: 1;
     }
+    .wda a {
+        width: 100%;
+    }
 }
 
 

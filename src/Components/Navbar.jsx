@@ -14,7 +14,7 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
                         <NavLink to="/about" className="nav-item nav-link">About</NavLink>
-                        <NavLink to="/courses" className="nav-item nav-link">Courses</NavLink>
+                        <NavLink to="/Courses" className="nav-item nav-link">Courses</NavLink>
                         <div className="nav-item dropdown">
                             <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
                             <div className="dropdown-menu fade-down m-0">
@@ -25,7 +25,9 @@ const Navbar = () => {
                         </div>
                         <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                     </div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYfD-7AqKC7Nc8sOO7aLPZClAMQgXikSzidXHMg_aYyDr8-A/viewform?embedded=true" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></a>
+                    <div className="wda">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYfD-7AqKC7Nc8sOO7aLPZClAMQgXikSzidXHMg_aYyDr8-A/viewform?embedded=true" className="btn btn-primary py-4 px-lg-5 d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></a>
+                    </div>
                 </div>
             </nav>
         </>

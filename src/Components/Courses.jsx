@@ -12,8 +12,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/wb2.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -23,8 +23,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(46)</small>
                                 </div>
                                 
                                 <h5 class="mb-4">₹1499.00</h5>
@@ -42,8 +42,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/Python.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -71,8 +71,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/SQL.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -105,8 +105,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/Intermediat English.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -135,8 +135,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/Proficiency English.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -164,8 +164,8 @@ const Courses = () => {
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid" src="img/Basic.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
+                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
