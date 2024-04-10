@@ -443,3 +443,32 @@
 .pad{
     padding-left: 60px !important; 
 }
+
+
+
+/* Banner */
+.banner {
+    background-color: #06BBCC; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .register-button {
+    background-color: #4CAF50; /* Green background color */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .register-button:hover {
+    background-color: #d6f0d8; /* Darker green */
+  }

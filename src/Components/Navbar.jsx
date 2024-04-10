@@ -16,7 +16,7 @@ const Navbar = () => {
                         <NavLink to="/internship" className="nav-item nav-link">Internship Opportunity</NavLink>
                         <NavLink to="/ncourses" className="nav-item nav-link">Courses</NavLink>
                         <div className="nav-item dropdown">
-                            <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
+                            <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</NavLink>
                             <div className="dropdown-menu fade-down m-0">
                                 <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
                                 <NavLink to="/about" className="dropdown-item">About</NavLink>
