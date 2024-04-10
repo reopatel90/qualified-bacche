@@ -14,7 +14,7 @@ const Navbar = () => {
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
                         <NavLink to="/about" className="nav-item nav-link">About</NavLink>
-                        <NavLink to="/Courses" className="nav-item nav-link">Courses</NavLink>
+                        <NavLink to="/ncourses" className="nav-item nav-link">Courses</NavLink>
                         <div className="nav-item dropdown">
                             <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
                             <div className="dropdown-menu fade-down m-0">

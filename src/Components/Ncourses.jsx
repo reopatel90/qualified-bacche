@@ -1,4 +1,4 @@
-const Courses = () => {
+const Ncourses = () => {
     return <>
         <div class="container-xxl py-5">
             <div class="container">
@@ -197,4 +197,4 @@ const Courses = () => {
     </>
 }
 
-export default Courses;
+export default Ncourses;
