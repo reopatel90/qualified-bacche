@@ -13,14 +13,14 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
-                        <NavLink to="/about" className="nav-item nav-link">About</NavLink>
+                        <NavLink to="/internship" className="nav-item nav-link">Internship Opportunity</NavLink>
                         <NavLink to="/ncourses" className="nav-item nav-link">Courses</NavLink>
                         <div className="nav-item dropdown">
                             <NavLink to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
                             <div className="dropdown-menu fade-down m-0">
                                 <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
-                                <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
-                                <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
+                                <NavLink to="/about" className="dropdown-item">About</NavLink>
+                                {/* <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink> */}
                             </div>
                         </div>
                         <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
