@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
-
 const Navbar = () => {
     return (
         <> 
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
                 <NavLink to="/" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                    <h2 className="m-0 text-primary"><i className="fa fa-book me-3"></i>Qualified-Bacche</h2>
+                <img src="img/logo.png" alt="Logo" className="me-3" style={{ height: '150px',width:'180px' }}/>
                 </NavLink>
                 <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
