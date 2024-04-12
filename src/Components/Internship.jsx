@@ -10,7 +10,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/wb2.jpg" alt="" />
+                                <img class="img-fluid" src="img/fullstack.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
@@ -40,7 +40,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/Python.jpg" alt="" />
+                                <img class="img-fluid" src="img/Py.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
@@ -69,7 +69,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/SQL.jpg" alt="" />
+                                <img class="img-fluid" src="img/data.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
@@ -103,7 +103,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/Intermediat English.jpg" alt="" />
+                                <img class="img-fluid" src="img/mern.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
@@ -133,7 +133,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/Proficiency English.jpg" alt="" />
+                                <img class="img-fluid" src="img/hr.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
@@ -162,7 +162,7 @@ const Internship = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/Basic.jpg" alt="" />
+                                <img class="img-fluid" src="img/sqldev.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
