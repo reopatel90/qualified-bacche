@@ -30,8 +30,8 @@ const Internship = () => {
                                 <h5 class="mb-4">₹1499.00</h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>3 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
@@ -54,13 +54,13 @@ const Internship = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    <small>(4.2)</small>
                                 </div>
                                 <h5 class="mb-4">₹1499.00</h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>3 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
@@ -83,13 +83,13 @@ const Internship = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    <small>(4.6)</small>
                                 </div>
                                 <h5 class="mb-4">₹1999.00</h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>3 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
@@ -117,13 +117,13 @@ const Internship = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small>(4.9)</small>
+                                    <small>(4.3)</small>
                                 </div>
                                 <h5 class="mb-4">₹1899.00</h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>3 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
@@ -147,13 +147,13 @@ const Internship = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    <small>(4.7)</small>
                                 </div>
                                 <h5 class="mb-4" >₹1999.00 </h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>3 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
@@ -176,19 +176,17 @@ const Internship = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    <small>(4.1)</small>
                                 </div>
                                 <h5 class="mb-4">₹999.00</h5>
                             </div>
                             <div class="d-flex border-top">
-                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-certificate text-primary me-2"></i>Certificate & LOR</small>
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>2 Months</small>
                                 <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>Live Mentor</small>
                             </div>
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>

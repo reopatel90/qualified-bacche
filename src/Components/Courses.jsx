@@ -10,7 +10,7 @@ const Courses = () => {
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="course-item bg-light">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/wb2.jpg" alt="" />
+                                <img class="img-fluid" src="img/web.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
