@@ -9,7 +9,7 @@ const Contact = () => {
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <h5>Get In Touch</h5>
-                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        {/* <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
                         <div class="d-flex align-items-center mb-3">
                             <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style={{ height: "50px", width: "50px" }}>
                                 <i class="fa fa-map-marker-alt text-white"></i>
