@@ -16,7 +16,7 @@ const Contact = () => {
                             </div>
                             <div class="ms-3">
                                 <h5 class="text-primary">Office</h5>
-                                <p class="mb-0">Block A, 5th floor, Maurya lok complex, Budh Vihar, Fraser Road Area, Patna, Bihar 800001</p>
+                                <p class="mb-0">B-HUB,BSFC, Fraser Road Area, Patna, Bihar 800001</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
