@@ -472,3 +472,27 @@
   .register-button:hover {
     background-color: #d6f0d8; /* Darker green */
   }
+  /* Style for "Our Hiring Partners" text */
+/* .our-hiring-partners {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } */
+  
+  /* Style for the container of partner images */
+  .partner-images-container {
+    /* background-color: #181d38; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for individual partner images */
+  .partner-image {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 10px; /* Adjust spacing between images */
+  }
+  

@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 import Courses from "./Courses";
 import Services from "./Services";
 import Team from "./Team";
-import Testimonial from "./Testimonial";
+import Hiring from "./Hiring"
 
 const Dashboard = () => {
     return (
@@ -14,7 +14,7 @@ const Dashboard = () => {
             <Services/>
            <Courses/>
            <Team/>
-           <Testimonial/>
+           <Hiring/>
         </div>
     );
     }

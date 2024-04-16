@@ -50,30 +50,31 @@ const Contact = () => {
 
                     </div>
                     <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                        <form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="62265e1d-02e4-4c76-a799-84e0eabce60c"/>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                                        <input type="text" name="NAME" class="form-control" id="name" placeholder="Your Name" />
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" />
+                                        <input type="email" name="Email-ID" class="form-control" id="email" placeholder="Your Email" />
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="number" minLength={10} maxLength={10} class="form-control" id="subject" placeholder="Subject" />
-                                        <label for="subject">Phone Number</label>
+                                        <input type="number"  name="Ph-No" minLength={10} maxLength={10} class="form-control" id="subject" placeholder="Subject" />
+                                        <label for="phone">Phone Number</label>
                                     </div>
                                 </div>
                                 
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style={{ height: "150px" }}></textarea>
+                                        <textarea class="form-control" name="Message" placeholder="Leave a message here" id="message" style={{ height: "150px" }}></textarea>
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
