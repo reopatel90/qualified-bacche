@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 import Internship from './Components/Internship';
 import Ncourses from './Components/Ncourses';
 import Joinnow from './Components/Joinnow';
+import CR from './Components/CR'
 function App() {
   // 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
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/ncourses' element={<Ncourses/>}/>
         <Route path='/internship'element={<Internship/>}/>
         <Route path='/join' element={<Joinnow/>} />
+        <Route path='/cr'element={<CR/>}/>
       </Routes>
       <Footer/>
     </div>

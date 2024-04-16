@@ -14,7 +14,7 @@ const Dashboard = () => {
             <Services/>
            <Courses/>
            <Team/>
-           <Hiring/>
+           {/* <Hiring/> */}
         </div>
     );
     }
