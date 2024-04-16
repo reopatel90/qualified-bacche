@@ -10,6 +10,8 @@ import Internship from './Components/Internship';
 import Ncourses from './Components/Ncourses';
 import Joinnow from './Components/Joinnow';
 import CR from './Components/CR'
+import CRI from './Components/CRI'
+import Faq from './Components/Faq'
 function App() {
   // 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
   return (
@@ -23,6 +25,10 @@ function App() {
         <Route path='/internship'element={<Internship/>}/>
         <Route path='/join' element={<Joinnow/>} />
         <Route path='/cr'element={<CR/>}/>
+        <Route path='/faq'element={<Faq/>}/>
+        <Route path='/cri'element={<CRI/>}/>
+
+
       </Routes>
       <Footer/>
     </div>

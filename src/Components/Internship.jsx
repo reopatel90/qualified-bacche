@@ -13,7 +13,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/fullstack.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -43,7 +43,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/py.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -72,7 +72,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/data.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -106,7 +106,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/mern.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -136,7 +136,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/hr.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -165,7 +165,7 @@ const Internship = () => {
                                 <img class="img-fluid" src="img/sqldev.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/bNW8KpG6isMRojYb7" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CRI" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">

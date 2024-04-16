@@ -1,7 +1,7 @@
-const CR = () => {
+const CRI = () => {
   return (
     <div className="course-registration-container">
-      <h2>Course Registration Form</h2>
+      <h2>Internship Registration Form</h2>
       <form action="https://api.web3forms.com/submit" method="POST">
         <input
           type="hidden"
@@ -26,21 +26,17 @@ const CR = () => {
           <input id="phone" type="tel" name="Phone" className="form-control" />
         </div>
         <div className="form-group">
-          <label htmlFor="course">Choose your Course</label>
-          <select id="course" name="Course" className="form-select">
+          <label htmlFor="internship">Choose your Internship Preference</label>
+          <select id="intern" name="Intern" className="form-select">
             <option value=""  disabled selected>
-              Choose your Course
+              Choose your Internship Preference
             </option>
-            <option  value="Full Stack Development @1499">Full Stack Development @1499</option>
-            <option  value="Web Development @499">Web Development @499</option>
-            <option  value="Python Programming @499">Python Programming @499</option>
-            <option  value="C++ Programming @499">C++ Programming @499</option>
-            <option  value="C Programming @499">C Programming @499</option>
-            <option  value="Java Programming @499">Java Programming @499</option>
-            <option  value="SQL@499">SQL @499</option>
-            <option  value="Intermediate English @299">Intermediate English @299</option>
-            <option  value="Proficiency English @699">Proficiency English @699</option>
-            <option  value="Advanced English @899">Advanced English @899</option>
+            <option  value="Full Stack Development Internship @1499">Full Stack Development Internship @1499</option>
+            <option  value="Python Developer @1499">Python Developer @1499</option>
+            <option  value="Data Analytics @1999">Data Analytics @1999</option>
+            <option  value="MERN Developer @1899">MERN Developer @1899</option>
+            <option  value="HR - Administration @1999">HR - Administration @1999</option>
+            <option  value="SQL Developer @999">SQL Developer @999</option>
           </select>
         </div>
         {/* <div className="form-group">
@@ -50,8 +46,7 @@ const CR = () => {
         <button
           className="btn btn-primary waves-effect waves-light"
           type="submit"
-        >
-          Submit
+        > Submit
           <i className="material-icons right"></i>
         </button>
       </form>
@@ -59,4 +54,4 @@ const CR = () => {
   );
 };
 
-export default CR;
+export default CRI;
