@@ -13,7 +13,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/Web.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -43,7 +43,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/webdev.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -56,7 +56,7 @@ const Ncourses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹1699.00</h5>
+                                <h5 class="mb-4">₹499.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -72,7 +72,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/Python.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -100,7 +100,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/JAVA.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -128,7 +128,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/c.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -157,7 +157,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/c++.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -186,7 +186,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/SQL.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -221,7 +221,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/Intermediat English.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4  ">
@@ -251,7 +251,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/Proficiency English.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
@@ -280,7 +280,7 @@ const Ncourses = () => {
                                 <img class="img-fluid" src="img/Basic.jpg" alt="" />
                                 <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                     <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{ borderRadius: "30px 0 0 30px" }}>Read More</a>
-                                    <a href="https://forms.gle/aEVrocmPGtuEYXW56" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
+                                    <a href="/CR" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{ borderRadius: "0 30px 30px 0" }}>Join Now</a>
                                 </div>
                             </div>
                             <div class="text-center p-4 ">
