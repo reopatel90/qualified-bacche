@@ -31,16 +31,16 @@ const CR = () => {
             <option value=""  disabled selected>
               Choose your Course
             </option>
-            <option  value="Full Stack Development">Full Stack Development</option>
-            <option  value="Web Development">Web Development</option>
-            <option  value="Python Programming">Python Programming</option>
-            <option  value="C++ Programming">C++ Programming</option>
-            <option  value="C Programming">C Programming</option>
-            <option  value="Java Programming">Java Programming</option>
-            <option  value="SQL">SQL</option>
-            <option  value="Intermediate English">Intermediate English</option>
-            <option  value="Proficiency English">Proficiency English</option>
-            <option  value="Advanced English">Advanced English</option>
+            <option  value="Full Stack Development">Full Stack Development @1499</option>
+            <option  value="Web Development">Web Development @499</option>
+            <option  value="Python Programming">Python Programming @499</option>
+            <option  value="C++ Programming">C++ Programming @499</option>
+            <option  value="C Programming">C Programming @499</option>
+            <option  value="Java Programming">Java Programming @499</option>
+            <option  value="SQL">SQL @499</option>
+            <option  value="Intermediate English">Intermediate English @299</option>
+            <option  value="Proficiency English">Proficiency English @699</option>
+            <option  value="Advanced English">Advanced English @899</option>
           </select>
         </div>
         {/* <div className="form-group">
