@@ -27,7 +27,7 @@ const Courses = () => {
                                     <small>(4.6)</small>
                                 </div>
                                 
-                                <h5 class="mb-4">₹1499.00</h5>
+                                <h5 class="mb-4">₹1699.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Gajendra Sharma</small>
@@ -56,7 +56,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹699.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -85,7 +85,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹599.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -113,7 +113,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹799.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -141,7 +141,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹799.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -170,7 +170,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹799.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -199,7 +199,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹499.00</h5>
+                                <h5 class="mb-4">₹599.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -234,7 +234,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(4.9)</small>
                                 </div>
-                                <h5 class="mb-4">₹299.00</h5>
+                                <h5 class="mb-4">₹399.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -264,7 +264,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4" >₹699.00 </h5>
+                                <h5 class="mb-4" >₹799.00 </h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
@@ -293,7 +293,7 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small>(123)</small>
                                 </div>
-                                <h5 class="mb-4">₹899.00</h5>
+                                <h5 class="mb-4">₹999.00</h5>
                             </div>
                             {/* <div class="d-flex border-top">
                                 <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
