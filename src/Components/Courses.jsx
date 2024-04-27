@@ -53,8 +53,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.5)</small>
                                 </div>
                                 <h5 class="mb-4">₹699.00</h5>
                             </div>
@@ -82,8 +82,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.4)</small>
                                 </div>
                                 <h5 class="mb-4">₹599.00</h5>
                             </div>
@@ -110,8 +110,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.1)</small>
                                 </div>
                                 <h5 class="mb-4">₹799.00</h5>
                             </div>
@@ -138,8 +138,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.6)</small>
                                 </div>
                                 <h5 class="mb-4">₹799.00</h5>
                             </div>
@@ -167,8 +167,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.3)</small>
                                 </div>
                                 <h5 class="mb-4">₹799.00</h5>
                             </div>
@@ -196,8 +196,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.5)</small>
                                 </div>
                                 <h5 class="mb-4">₹599.00</h5>
                             </div>
@@ -261,8 +261,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.7)</small>
                                 </div>
                                 <h5 class="mb-4" >₹799.00 </h5>
                             </div>
@@ -290,8 +290,8 @@ const Courses = () => {
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small>(123)</small>
+                                    {/* <small class="fa fa-star text-primary"></small> */}
+                                    <small>(4.6)</small>
                                 </div>
                                 <h5 class="mb-4">₹999.00</h5>
                             </div>
