@@ -545,6 +545,16 @@
   .btn:hover {
     background-color: #1976d2;
   }
+
+
+  .course-item.bg-light {
+    border: 1px solid black; 
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .course-item {
+    margin: 0 10px;
+  }
   
 
   /* //Faq */
