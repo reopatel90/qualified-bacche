@@ -9,7 +9,7 @@ const Footer = () => {
                             <a className="btn btn-link pad" href="">About Us</a>
                             <a className="btn btn-link pad" href="">Contact Us</a>
                             <a className="btn btn-link pad" href="img/Privacy Policy for Qualified Bacche.pdf">Privacy Policy</a>
-                            <a className="btn btn-link pad" href="img/Terms and Conditions for Qualified Bacche.pdf">Terms & Condition</a>
+                            <a className="btn btn-link pad" href="/TC">Terms & Condition</a>
                             <a className="btn btn-link pad" href="">FAQs & Help</a>
                         </div>
                         <div className="col-lg-3 col-md-6">
