@@ -29,7 +29,7 @@ pipeline {
                     nvm use 20
 
                     # Ensure npm is available
-                    export PATH=$NVM_DIR/versions/node/v16.20.2/bin:$PATH
+                    export PATH=$NVM_DIR/versions/node/v20.18.1/bin:$PATH
                     echo "Node version: $(node -v)"
                     echo "NPM version: $(npm -v)"
                     '''
@@ -41,7 +41,7 @@ pipeline {
             steps {
                 script {
                     // Install npm dependencies
-                    sh 'npm install'
+                    sh 'npm install --force'
                 }
             }
         }
