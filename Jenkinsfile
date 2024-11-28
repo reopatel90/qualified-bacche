@@ -37,11 +37,10 @@ pipeline {
             }
         }
 
-        stage('Clean Up Node Modules') {
+        stage('Check Node Version') {
             steps {
                 script {
-                    // Remove node_modules to ensure a clean install
-                    sh 'rm -rf node_modules'
+                    sh 'node -v'
                 }
             }
         }
@@ -51,6 +50,16 @@ pipeline {
                 script {
                     // Install npm dependencies
                     sh 'npm install --force'
+                }
+            }
+        }
+
+        stage('Reinstall Node Modules') {
+            steps {
+                script {
+                    // Clean and reinstall node modules
+                    sh 'rm -rf node_modules'
+                    sh 'npm install'
                 }
             }
         }
