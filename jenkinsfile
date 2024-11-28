@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS'  // Replace with the name of the Node.js version you configured in Jenkins
+        nodejs '20'  // Replace with the name of the Node.js version you configured in Jenkins
     }
     environment {
         GIT_REPO = 'https://github.com/reopatel90/qualified-bacche.git'
