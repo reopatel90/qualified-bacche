@@ -25,8 +25,8 @@ pipeline {
                     # Load NVM and install Node.js
                     export NVM_DIR="$HOME/.nvm"
                     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-                    nvm install 16
-                    nvm use 16
+                    nvm install 20
+                    nvm use 20
 
                     # Ensure npm is available
                     export PATH=$NVM_DIR/versions/node/v16.20.2/bin:$PATH
