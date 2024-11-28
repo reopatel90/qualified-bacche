@@ -110,7 +110,7 @@ pipeline {
         failure {
             echo 'Pipeline failed.'
             // Collect and output logs for further debugging
-            sh 'cat /var/lib/jenkins/.npm/_logs/*.log'
+            // sh 'cat /var/lib/jenkins/.npm/_logs/*.log'
         }
     }
 }
