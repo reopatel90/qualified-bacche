@@ -1,5 +1,4 @@
 pipeline {
-   
     environment {
         GIT_REPO = 'https://github.com/reopatel90/qualified-bacche.git'
         EMAIL_RECIPIENT = 'nathantran895@gmail.com'
@@ -14,6 +13,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
+                    // Make sure npm is available for the Jenkins user
                     sh 'npm install'
                 }
             }
@@ -21,6 +21,7 @@ pipeline {
         stage('Build React App') {
             steps {
                 script {
+                    // Run the build command
                     sh 'npm run build'
                 }
             }
