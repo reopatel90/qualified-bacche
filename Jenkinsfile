@@ -2,31 +2,45 @@ pipeline {
     agent any
 
     environment {
-        // Set the Node version that you want to use
-        NODE_VERSION = '16.x'  // Change to the version required for your project
+        NVM_DIR = "$HOME/.nvm"
     }
 
     stages {
-        stage('Setup') {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install Node.js') {
             steps {
                 script {
-                    // Install Node.js and npm (if not installed already)
-                    echo "Setting up Node.js..."
-                    sh 'curl -sL https://deb.nodesource.com/setup_${env.NODE_VERSION} | bash -'
-                    sh 'apt-get install -y nodejs'
-                    
-                    // Check Node.js and npm versions
-                    sh 'node -v'
-                    sh 'npm -v'
+                    // Ensure NVM is installed first
+                    sh '''
+                    if [ ! -d "$NVM_DIR" ]; then
+                        echo "NVM not found, installing..."
+                        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+                    fi
+
+                    # Load NVM and install Node.js
+                    export NVM_DIR="$HOME/.nvm"
+                    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+                    nvm install 20
+                    nvm use 20
+
+                    # Ensure npm is available
+                    export PATH=$NVM_DIR/versions/node/v20.18.1/bin:$PATH
+                    echo "Node version: $(node -v)"
+                    echo "NPM version: $(npm -v)"
+                    '''
                 }
             }
         }
 
-        stage('Clean npm Cache') {
+        stage('Check Node Version') {
             steps {
                 script {
-                    echo "Cleaning npm cache..."
-                    sh 'npm cache clean --force'
+                    sh 'node -v'
                 }
             }
         }
@@ -34,19 +48,18 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
-                    echo "Installing dependencies..."
-                    sh 'rm -rf node_modules'  // Remove the current node_modules if exists
-                    sh 'npm install'  // Install dependencies
+                    // Install npm dependencies
+                    sh 'npm install --force'
                 }
             }
         }
 
-        stage('Update Dependencies') {
+        stage('Reinstall Node Modules') {
             steps {
                 script {
-                    echo "Updating dependencies..."
-                    sh 'npm install eslint-webpack-plugin@latest --save-dev'  // Update specific dependency
-                    sh 'npm update'  // Update all dependencies
+                    // Clean and reinstall node modules
+                    sh 'rm -rf node_modules'
+                    sh 'npm install'
                 }
             }
         }
@@ -54,7 +67,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo "Building project..."
+                    // Build your project
                     sh 'npm run build'
                 }
             }
@@ -63,22 +76,26 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    echo "Deploying project..."
-                    // Add your deployment commands here
+                    // Deploy your project (This step can vary depending on your setup)
+                    echo 'Deploying application...'
+                    // Add deployment script/commands here
                 }
             }
         }
     }
 
     post {
-        failure {
-            echo "Build failed. Collecting logs..."
-            // You can collect more logs or perform any other cleanup if required
-            sh 'cat /var/lib/jenkins/.npm/_logs/*.log'  // Display npm logs in case of failure
-        }
         always {
-            echo "Cleaning up after pipeline..."
-            // Any cleanup steps after pipeline runs
+            // Clean up any resources or actions to be performed after the pipeline
+            echo 'Cleaning up...'
+        }
+
+        success {
+            echo 'Pipeline successfully completed.'
+        }
+
+        failure {
+            echo 'Pipeline failed.'
         }
     }
 }
