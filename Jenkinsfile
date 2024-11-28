@@ -25,7 +25,7 @@ pipeline {
                 script {
                     // Install Node.js (ensure it's available)
                     sh '''
-                    curl -sL https://deb.nodesource.com/setup_${NODE_VERSION}.x | sudo -E bash -
+                    curl -sL https://deb.nodesource.com/setup_20 | sudo -E bash -
                     sudo apt-get install -y nodejs
                     node -v  # Verify Node.js installation
                     npm -v   # Verify npm installation
