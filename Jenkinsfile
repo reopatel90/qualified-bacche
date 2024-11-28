@@ -37,6 +37,15 @@ pipeline {
             }
         }
 
+        stage('Clean Up Node Modules') {
+            steps {
+                script {
+                    // Remove node_modules to ensure a clean install
+                    sh 'rm -rf node_modules'
+                }
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 script {
