@@ -48,8 +48,20 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
+                    echo "Installing npm dependencies with force..."
                     // Install npm dependencies
                     sh 'npm install --force'
+                }
+            }
+        }
+
+        stage('Update Dependencies') {
+            steps {
+                script {
+                    echo "Updating dependencies..."
+                    // Update eslint-webpack-plugin and other dependencies
+                    sh 'npm install eslint-webpack-plugin@latest --save-dev'
+                    sh 'npm update'  // Update all dependencies to their latest versions
                 }
             }
         }
@@ -57,6 +69,7 @@ pipeline {
         stage('Reinstall Node Modules') {
             steps {
                 script {
+                    echo "Removing node_modules and reinstalling..."
                     // Clean and reinstall node modules
                     sh 'rm -rf node_modules'
                     sh 'npm install'
@@ -67,8 +80,9 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    // Build your project
-                    sh 'npm run build'
+                    echo "Building the project..."
+                    // Run the build process
+                    sh 'npm run build --verbose'  // Use --verbose for detailed logs
                 }
             }
         }
@@ -76,7 +90,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    // Deploy your project (This step can vary depending on your setup)
                     echo 'Deploying application...'
                     // Add deployment script/commands here
                 }
@@ -96,6 +109,8 @@ pipeline {
 
         failure {
             echo 'Pipeline failed.'
+            // Collect and output logs for further debugging
+            sh 'cat /var/lib/jenkins/.npm/_logs/*.log'
         }
     }
 }
