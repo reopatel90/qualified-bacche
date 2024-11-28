@@ -15,8 +15,14 @@ pipeline {
         stage('Install Node.js') {
             steps {
                 script {
-                    // Install Node.js using NVM
+                    // Ensure NVM is installed first
                     sh '''
+                    if [ ! -d "$NVM_DIR" ]; then
+                        echo "NVM not found, installing..."
+                        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+                    fi
+
+                    # Load NVM
                     export NVM_DIR="$HOME/.nvm"
                     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # no backslash here
                     nvm install 16
