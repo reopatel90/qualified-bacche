@@ -22,11 +22,11 @@ pipeline {
                         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
                     fi
 
-                    # Load NVM and install Node.js
+                    # Load NVM and install Node.js v18
                     export NVM_DIR="$HOME/.nvm"
                     [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-                    nvm install 18
-                    nvm use 18
+                    nvm install 18  # Install Node.js v18
+                    nvm use 18       # Use Node.js v18
 
                     # Ensure npm is available
                     export PATH=$NVM_DIR/versions/node/v18.20.5/bin:$PATH
@@ -45,12 +45,23 @@ pipeline {
             }
         }
 
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    echo "Installing npm dependencies..."
+                    // Install npm dependencies
+                    sh 'npm install --force'
+                }
+            }
+        }
+
         stage('Update Dependencies') {
             steps {
                 script {
                     echo "Updating dependencies..."
                     // Update eslint-webpack-plugin and other dependencies
-                    // sh 'npm install eslint-webpack-plugin@latest --save-dev'
+                    sh 'npm install eslint-webpack-plugin@latest --save-dev'
+                    sh 'npm update'  // Update all dependencies to their latest versions
                 }
             }
         }
@@ -61,7 +72,7 @@ pipeline {
                     echo "Removing node_modules and reinstalling..."
                     // Clean and reinstall node modules
                     sh 'rm -rf node_modules'
-                    sh 'npm install --force'
+                    sh 'npm install'
                 }
             }
         }
