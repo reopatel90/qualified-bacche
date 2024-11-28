@@ -45,16 +45,6 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                script {
-                    echo "Installing npm dependencies with force..."
-                    // Install npm dependencies
-                    sh 'npm install --force'
-                }
-            }
-        }
-
         stage('Update Dependencies') {
             steps {
                 script {
@@ -72,7 +62,7 @@ pipeline {
                     echo "Removing node_modules and reinstalling..."
                     // Clean and reinstall node modules
                     sh 'rm -rf node_modules'
-                    sh 'npm install'
+                    sh 'npm install --force'
                 }
             }
         }
