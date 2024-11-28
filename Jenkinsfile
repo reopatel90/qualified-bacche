@@ -1,9 +1,12 @@
 pipeline {
+    agent any  // This will run the pipeline on any available agent
+
     environment {
         GIT_REPO = 'https://github.com/reopatel90/qualified-bacche.git'
         EMAIL_RECIPIENT = 'nathantran895@gmail.com'
         DEPLOY_PATH = '/var/www/html'  
     }
+    
     stages {
         stage('Clone Repository') {
             steps {
@@ -13,7 +16,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
-                    // Make sure npm is available for the Jenkins user
+                    // Ensure npm is available for the Jenkins user
                     sh 'npm install'
                 }
             }
