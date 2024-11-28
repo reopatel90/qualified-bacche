@@ -1,5 +1,5 @@
 pipeline {
-    agent any  // This will run the pipeline on any available agent
+    agent any 
 
     environment {
         GIT_REPO = 'https://github.com/reopatel90/qualified-bacche.git'
