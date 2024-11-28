@@ -29,7 +29,7 @@ pipeline {
                     nvm use 18
 
                     # Ensure npm is available
-                    export PATH=$NVM_DIR/versions/node/v20.18.1/bin:$PATH
+                    export PATH=$NVM_DIR/versions/node/v18.20.5/bin:$PATH
                     echo "Node version: $(node -v)"
                     echo "NPM version: $(npm -v)"
                     '''
