@@ -50,8 +50,7 @@ pipeline {
                 script {
                     echo "Updating dependencies..."
                     // Update eslint-webpack-plugin and other dependencies
-                    sh 'npm install eslint-webpack-plugin@latest --save-dev'
-                    sh 'npm update'  // Update all dependencies to their latest versions
+                    // sh 'npm install eslint-webpack-plugin@latest --save-dev'
                 }
             }
         }
