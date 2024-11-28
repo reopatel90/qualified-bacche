@@ -22,11 +22,16 @@ pipeline {
                         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
                     fi
 
-                    # Load NVM
+                    # Load NVM and install Node.js
                     export NVM_DIR="$HOME/.nvm"
-                    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # no backslash here
+                    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
                     nvm install 16
                     nvm use 16
+
+                    # Ensure npm is available
+                    export PATH=$NVM_DIR/versions/node/v16.20.2/bin:$PATH
+                    echo "Node version: $(node -v)"
+                    echo "NPM version: $(npm -v)"
                     '''
                 }
             }
