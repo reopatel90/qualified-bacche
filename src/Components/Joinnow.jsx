@@ -7,51 +7,51 @@ const Joinnow = () => {
                     <div className="row g-3">
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="text" className="form-control" id="name" placeholder="Your Name" />
-                                <label for="name">Your Name</label>
+                                <input type="text" className="form-control" id="joinName" placeholder="Your Name" />
+                                <label htmlFor="joinName">Your Name</label>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="email" className="form-control" id="email" placeholder="Your Email" />
-                                <label for="email">Your Email</label>
+                                <input type="email" className="form-control" id="joinEmail" placeholder="Your Email" />
+                                <label htmlFor="joinEmail">Your Email</label>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="text" className="form-control" id="email" placeholder="Your Email" />
-                                <label for="email">Batch</label>
+                                <input type="text" className="form-control" id="joinBatch" placeholder="Batch" />
+                                <label htmlFor="joinBatch">Batch</label>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="text" className="form-control" id="email" placeholder="Your Email" />
-                                <label for="email">Course</label>
+                                <input type="text" className="form-control" id="joinCourse" placeholder="Course" />
+                                <label htmlFor="joinCourse">Course</label>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="text" className="form-control" id="email" placeholder="Your Email" />
-                                <label for="email">College Name</label>
+                                <input type="text" className="form-control" id="joinCollege" placeholder="College Name" />
+                                <label htmlFor="joinCollege">College Name</label>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-floating">
-                                <input type="number" className="form-control" id="email" placeholder="Your Email" />
-                                <label for="email">Passout Year</label>
+                                <input type="number" className="form-control" id="joinPassout" placeholder="Passout Year" />
+                                <label htmlFor="joinPassout">Passout Year</label>
                             </div>
                         </div>
                         <div className="col-12">
                             <div className="form-floating">
-                                <input type="number" minLength={10} maxLength={10} className="form-control" id="subject" placeholder="Subject" />
-                                <label for="subject">Phone Number</label>
+                                <input type="tel" pattern="[0-9]{10}" maxLength={10} className="form-control" id="joinPhone" placeholder="Phone Number" />
+                                <label htmlFor="joinPhone">Phone Number</label>
                             </div>
                         </div>
 
                         <div className="col-12">
                             <div className="form-floating">
-                                <textarea className="form-control" placeholder="Leave a message here" id="message" style={{ height: "150px" }}></textarea>
-                                <label for="message">Message</label>
+                                <textarea className="form-control" placeholder="Leave a message here" id="joinMessage" style={{ height: "150px" }}></textarea>
+                                <label htmlFor="joinMessage">Message</label>
                             </div>
                         </div>
                         <div className="col-12">

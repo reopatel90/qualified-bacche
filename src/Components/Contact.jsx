@@ -43,8 +43,8 @@ const Contact = () => {
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
                         frameborder="0" style={{minHeight:"300px" ,border:0}} allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe> */}
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d918445.3386708528!2d82.53679334218748!3d25.945825015086612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed59346f4e3b4d%3A0xdaa21a164b9e944f!2sB-HUB!5e0!3m2!1sen!2sin!4v1712604244401!5m2!1sen!2sin" frameborder="0" style={{ minHeight: "300px", border: 0 }} allowfullscreen="" aria-hidden="false"
-                            tabindex="0"
+                        <iframe title="Qualified Bacche Office Location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d918445.3386708528!2d82.53679334218748!3d25.945825015086612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed59346f4e3b4d%3A0xdaa21a164b9e944f!2sB-HUB!5e0!3m2!1sen!2sin!4v1712604244401!5m2!1sen!2sin" frameBorder="0" style={{ minHeight: "300px", border: 0 }} allowFullScreen="" aria-hidden="false"
+                            tabIndex="0"
                         ></iframe>
 
 
@@ -67,8 +67,8 @@ const Contact = () => {
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="number"  name="Ph-No" minLength={10} maxLength={10} class="form-control" id="subject" placeholder="Subject" />
-                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" name="Ph-No" pattern="[0-9]{10}" maxLength={10} class="form-control" id="phone" placeholder="Phone Number" />
+                                        <label htmlFor="phone">Phone Number</label>
                                     </div>
                                 </div>
                                 

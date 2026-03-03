@@ -27,8 +27,8 @@ const CR = () => {
         </div>
         <div className="form-group">
           <label htmlFor="course">Choose your Course</label>
-          <select id="course" name="Course" className="form-select">
-            <option value=""  disabled selected>
+          <select id="course" name="Course" className="form-select" defaultValue="">
+            <option value="" disabled>
               Choose your Course
             </option>
             <option  value="Full Stack Development @1699">Full Stack Development @1699</option>

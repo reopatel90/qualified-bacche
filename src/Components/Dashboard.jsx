@@ -3,7 +3,6 @@ import Carousel from "./Carousel";
 import Courses from "./Courses";
 import Services from "./Services";
 import Team from "./Team";
-import Hiring from "./Hiring"
 
 const Dashboard = () => {
     return (
