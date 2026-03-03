@@ -27,8 +27,8 @@ const CRI = () => {
         </div>
         <div className="form-group">
           <label htmlFor="internship">Choose your Internship Preference</label>
-          <select id="intern" name="Intern" className="form-select">
-            <option value=""  disabled selected>
+          <select id="intern" name="Intern" className="form-select" defaultValue="">
+            <option value="" disabled>
               Choose your Internship Preference
             </option>
             <option  value="Full Stack Development Internship @1499">Full Stack Development Internship @1499</option>

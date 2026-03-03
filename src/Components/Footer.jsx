@@ -6,11 +6,11 @@ const Footer = () => {
                     <div className="row g-5 amit">
                         <div className="col-lg-3 col-md-6">
                             <h4 className="text-white mb-3">Quick Link</h4>
-                            <a className="btn btn-link pad" href="">About Us</a>
-                            <a className="btn btn-link pad" href="">Contact Us</a>
+                            <a className="btn btn-link pad" href="/about">About Us</a>
+                            <a className="btn btn-link pad" href="/contact">Contact Us</a>
                             <a className="btn btn-link pad" href="img/Privacy Policy for Qualified Bacche.pdf">Privacy Policy</a>
-                            <a className="btn btn-link pad" href="/TC">Terms & Condition</a>
-                            <a className="btn btn-link pad" href="">FAQs & Help</a>
+                            <a className="btn btn-link pad" href="/TC">Terms &amp; Condition</a>
+                            <a className="btn btn-link pad" href="/contact">FAQs &amp; Help</a>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="text-white mb-3">Contact</h4>
@@ -61,17 +61,17 @@ const Footer = () => {
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; <a className="border-bottom" href="#">Qualified-Bacche </a>, All Right Reserved.
+                                &copy; <a className="border-bottom" href="/">Qualified-Bacche </a>, All Right Reserved.
 
 
-                                Designed By <a className="border-bottom" href="#">Qualified-Bacche</a><br />   
+                                Designed By <a className="border-bottom" href="/">Qualified-Bacche</a><br />   
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 <div className="footer-menu">
-                                    <a href="">Home</a>
-                                    <a href="">Cookies</a>
-                                    <a href="">Help</a>
-                                    <a href="/">FQAs</a>
+                                    <a href="/">Home</a>
+                                    <a href="/TC">Cookies</a>
+                                    <a href="/contact">Help</a>
+                                    <a href="/contact">FQAs</a>
                                 </div>
                             </div>
                         </div>

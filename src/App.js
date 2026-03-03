@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Dashboard from './Components/Dashboard';
 import {Routes, Route} from 'react-router-dom';
@@ -12,9 +11,9 @@ import Joinnow from './Components/Joinnow';
 import CR from './Components/CR'
 import CRI from './Components/CRI'
 import TC from './Components/TC';
+import Team from './Components/Team';
 // import Faq from './Components/Faq'
 function App() {
-  // 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
   return (
     <div className="App">
       <Navbar/>
@@ -27,6 +26,7 @@ function App() {
         <Route path='/join' element={<Joinnow/>} />
         <Route path='/cr'element={<CR/>}/>
         <Route path='/TC'element={<TC/>}/>
+        <Route path='/team' element={<Team/>}/>
         {/* <Route path='/faq'element={<Faq/>}/> */}
         <Route path='/cri'element={<CRI/>}/>
         

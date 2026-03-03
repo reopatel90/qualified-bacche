@@ -11,11 +11,8 @@ const Courses = () => {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        // slidesToShow: 3,
-        // slidesToScroll: 1,
         className: "center",
         centerMode: false,
-        infinite: true,
         centerPadding: "60px",
         swipeToSlide: true,
         afterChange: function(index) {
